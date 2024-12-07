@@ -1,0 +1,119 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #4a4a4a;
+}
+
+.user-management {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff7f2; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #8d4d29; 
+}
+
+.add-user-button {
+  background-color: #66381d; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  float: right; 
+}
+
+.add-user-button:hover {
+  background-color: #6a2a12; 
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  background-color: #ffebd9; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  width: 200px; 
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  border-color: #8d4d29; 
+}
+
+button {
+  background-color: #8d4d29; 
+  color: white;
+  border: none;
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 4px;
+  width: auto;
+  max-width: 200px; 
+}
+
+button:hover {
+  background-color: #6a2a12;
+}
+
+/* Table styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #462816; 
+  color: white;
+}
+
+.user-table td {
+  background-color: #f9f9f9;
+}
+
+.user-table button {
+  background-color: #e27d60; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user-table button:hover {
+  background-color: #d15c3f; 
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}

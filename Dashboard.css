@@ -1,0 +1,150 @@
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5ebe0; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #d8be9b; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3e2723; 
+    font-size: 40px;
+}
+
+.table-container {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    padding: 10px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #6e4b3a;
+    color: white;
+    font-weight: bold;
+}
+
+table td {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4e3629;
+    
+}
+
+table tr:nth-child(even) {
+    background-color: #f9ebd2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff4e6;
+}
+
+table tr:hover {
+    background-color: #f1e0c6;
+}
+
+.table-container h2 {
+    margin-bottom: 15px;
+    color: #3e2723;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: black;
+    background-image: url('https://www.example.com/path/to/your/image.jpg'); 
+    background-size: cover;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-social li {
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #f1a207; 
+}
+
+.footer-social ul {
+    display: flex;
+    gap: 15px;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links,
+    .footer-social {
+        margin-bottom: 20px;
+    }
+}

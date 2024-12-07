@@ -1,0 +1,46 @@
+.auth-form {
+    max-width: 300px; 
+    background-image: url('./Assets/abstract.jpg');
+    margin: auto;
+    padding: 40px; 
+    border: 1px solid #ddd; 
+    border-radius: 2px; 
+    background-color: #f9f9f9; 
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.auth-form h2 {
+    text-align: center; 
+    color: white;
+    font-size: 30px;
+}
+
+.auth-form input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.auth-form button {
+    width: 100%; 
+    max-width: 500px; 
+    padding: 10px; 
+    background-color: #c5750c; 
+    color: rgb(255, 255, 255);
+    border: none; 
+    border-radius: 5px; 
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.auth-form .error {
+    color: red; 
+}
